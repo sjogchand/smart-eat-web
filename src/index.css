@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.eatsmart-web {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+section.section1{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    top: 30%;
+    background: linear-gradient(90deg, #7544FF 0%, #5E40B1 100%);
+    padding: 30px 0px;
+    top:160px;
+}
+
+.subdiv-1 {
+  flex: 25%;
+  text-align: center;
+}
+
+.subdiv-1 img{
+  text-align: center;
+}
+.subdiv-1 .text-content {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subdiv-2 {
+  flex: 40%;
+  padding: 5px 80px;
+}
+
+.subdiv-2 p.head {
+    color: white;
+    font-size: 34px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0px 10px 15px 0px;
+}
+
+.subdiv-2 p.text {
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 300;
+    /* word-wrap: break-word; */
+    width: 454px;
+    margin: 0px 10px 20px 0px;
+}
+
+.subdiv-2 .download-now {
+    color: white;
+    font-size: 30px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align: center;
+    right: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.subdiv-3 {
+  flex: 35%;
+}
+
+.subdiv-3 img {
+    position: absolute;
+    top: -40%;
+    width: 300px;
+    right: 10%;
+    z-index: 9999;
+}
+
+.subdiv-3 .phone-bg {
+    position: absolute;
+    background: url(./assets/eatsamrt-web-gif-v003-1.gif);
+    background-size: cover;
+    top: -38%;
+    bottom: 10%;
+    right: 11%;
+    width: 272px;
+    height: 188%;
+    object-fit: contain;
+    z-index: 989;
+    border-radius: 40px;
+}
+
+
+.subdiv-2 .img {
+  display: flex;
+}
+
+.eatsmart-web .subdiv-2 .img img {
+    width: 100% !important;
+    height: auto !important;
+    width: 200px !important;
+    padding: 10px 10px;
+}
+
+.footer{
+    padding: 30px 100px;
+    background: linear-gradient(90deg, #7544FF 0%, #5E40B1 100%);
+    color: #fff;
+}
+
+body{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: url(../public/assets/img/image-1.png);
+    background-size: cover;
+}
+
+.banner{
+    flex: 1; /* Allow the main content to grow and take up remaining space */
+}
+
